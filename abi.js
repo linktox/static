@@ -57,6 +57,19 @@ window.ABIS = {
     "function pay(address,uint256,uint256,uint256) payable returns (uint256)",
     "function payEther(uint256,uint256) payable returns (uint256)"
   ],
+  "IERC20Metadata": [
+    "event Approval(address indexed,address indexed,uint256)",
+    "event Transfer(address indexed,address indexed,uint256)",
+    "function allowance(address,address) view returns (uint256)",
+    "function approve(address,uint256) returns (bool)",
+    "function balanceOf(address) view returns (uint256)",
+    "function decimals() view returns (uint8)",
+    "function name() view returns (string)",
+    "function symbol() view returns (string)",
+    "function totalSupply() view returns (uint256)",
+    "function transfer(address,uint256) returns (bool)",
+    "function transferFrom(address,address,uint256) returns (bool)"
+  ],
   "IERC721": [
     "event Approval(address indexed,address indexed,uint256 indexed)",
     "event ApprovalForAll(address indexed,address indexed,bool)",
@@ -71,18 +84,5 @@ window.ABIS = {
     "function setApprovalForAll(address,bool)",
     "function supportsInterface(bytes4) view returns (bool)",
     "function transferFrom(address,address,uint256)"
-  ],
-  "IERC20": [
-    "event Approval(address indexed,address indexed,uint256)",
-    "event Transfer(address indexed,address indexed,uint256)",
-    "function name() view returns (string)",
-    "function symbol() view returns (string)",
-    "function decimals() view returns (uint8)",
-    "function allowance(address,address) view returns (uint256)",
-    "function approve(address,uint256) returns (bool)",
-    "function balanceOf(address) view returns (uint256)",
-    "function totalSupply() view returns (uint256)",
-    "function transfer(address,uint256) returns (bool)",
-    "function transferFrom(address,address,uint256) returns (bool)"
   ]
 }
