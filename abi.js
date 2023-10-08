@@ -53,7 +53,7 @@ window.ABIS = {
   ],
   "IXPay": [
     "event Pay(uint256 indexed,address indexed,uint256 indexed,address,bool,address,uint256,uint256)",
-    "function getFee(uint256) view returns (uint256)",
+    "function getFee(address,uint256) view returns (uint256)",
     "function pay(address,uint256,uint256,uint256) payable returns (uint256)",
     "function payEther(uint256,uint256) payable returns (uint256)"
   ],
