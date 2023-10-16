@@ -51,6 +51,9 @@ window.ABIS = {
     "function setApprovalForAll(address,bool)",
     "function supportsInterface(bytes4) view returns (bool)"
   ],
+  "IERC6551Executable": [
+    "function execute(address,uint256,bytes,uint256) payable returns (bytes)"
+  ],
   "IXPay": [
     "event Pay(uint256 indexed,address indexed,uint256 indexed,address,bool,address,uint256,uint256)",
     "function getFee(address,uint256) view returns (uint256)",
